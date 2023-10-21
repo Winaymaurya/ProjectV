@@ -1,0 +1,51 @@
+.car{
+    margin: 30px;
+  
+    background-color: rgb(247, 232, 219);
+    /* border: 1px solid black; */
+    width: 250px;
+    height: 340px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    transition: .4s;
+    box-shadow: 0px 2px 0px 0px  rgb(131, 126, 126);
+}
+.car:hover{
+    transform: scale(1.015);
+    box-shadow: none;
+}
+.name{
+    text-align: center;
+    font-weight: 700px;
+    font-size: 20px;
+}
+.img{
+    width: 200px;
+    height: 100px;
+}
+.des{
+    font-size: 14px;
+    padding: 10px;
+    text-align: justify;
+    
+}
+.btt{
+    background-color: rgb(249, 69, 69);
+    color: white;
+    border: none;
+    padding: 4px;
+  width: 100px;
+  height: 34px;
+  transition: .6s;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  box-shadow: rgb(121, 18, 55) 0px 2px 0px 0px;
+}
+.btt:hover{
+    background-color: red;
+    box-shadow: none;
+}

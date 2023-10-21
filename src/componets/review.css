@@ -1,0 +1,42 @@
+/* this card is inspired form this - https://georgefrancis.dev/ */
+
+.cardR {
+    --border-radius: 0.75rem;
+    --primary-color: #7257fa;
+    --secondary-color: #3c3852;
+    width: 210px;
+    font-family: "Arial";
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    background: #f1f1f3;
+    box-shadow: 0px 5px 10px 0px rgba(30, 28, 28, 0.226);
+    position: relative;
+    margin: 10px 20px;
+    height: 160px;
+    width: 230px;
+    /* margin-top: 30px; */
+    transition: .3s;
+  }
+  .cardR:hover{
+      box-shadow: none;
+      transform: scale(1.04);
+  }
+  
+  .cardR .card__content {
+    color: var(--secondary-color);
+    font-size: 0.86rem;
+  }
+  
+  .cardR .card__title {
+    padding: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .cardR .card__date {
+    color: #6e6b80;
+    font-size: 0.8rem;
+  }
+  
+  
